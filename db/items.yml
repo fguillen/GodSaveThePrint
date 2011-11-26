@@ -1,0 +1,35 @@
+items:
+  - slug: "patxaran_berrikano"
+    title: "PATXARÁN BERRIKANO"
+    price: "85"
+    author: "ATA"
+    technique: "2 tintas. 44 x 38 cm."
+    link: "www.atadibujasuscosasytal.com"
+    buy-button-id: "AZKQ9XQZQ4N96"
+    description: |
+      Los dibujos de ATA son una colección de segmentos con mucho ritmo
+    description-extra: |
+      "Hay algo de antiguo en el trabajo de Ata. Cuidado por detalles
+      que nadie apreciará. Dedicación muy por encima del concepto de
+      rentabilidad. Las prisas pasan, la mierda queda.
+      Ata no es ilustrador. Es dibujante".
+
+
+  - slug: "oda_a_la_monotonia"
+    title: "ODA A LA MONOTONÍA"
+    price: "110"
+    author: "Miguel Brieva"
+    technique: "4 tintas. 36 x 48’5 cm."
+    link: "www.clismon.net"
+    buy-button-id: "VPLAN9AJH7RVW"
+    description: |
+      Con Miguel coincidimos en la forma de ver las cosas, y nos encanta lo bien
+      que sabe contarlas. Nos conocimos y fue cuando descubrimos más coincidencias.
+    description-extra: |
+      1974, Sevilla, dibujante y humorista gráfico. Es autor de los libros <b>Dinero<b>, 
+      <b>Bienvenido al Mundo</b> y <b>El Otro Mundo</b> y ha colaborado con cierta regularidad en 
+      publicaciones como <b>El Jueves</b>, <b>La Vanguardia</b>, <b>Periódico Diagonal</b>, 
+      <b>El País</b>, <b>Rolling Stone</b>, <b>Ajoblanco</b>, <b>Qué Leer</b>, <b>Mondo Bruto</b>, 
+      <b>NSLM</b>, <b>Recto</b>, <b>Tos</b>, <b>Freek</b>, <b>Nervi</b> y <b>la Gacetilla Parroquial de 
+      Nuestro Señor San Esteban Protomártir</b>..
+

@@ -1,0 +1,207 @@
+div{
+/*  border: 1px solid red;*/
+
+}
+
+body {
+  font-family: Arial;
+  font-size: 11px;
+  line-height: 12px;
+}
+
+.clear {
+  clear: both;
+}
+
+#logo {
+  margin-top: 15px;
+  float: right;
+  width: 140px;
+  height: 246px;
+  background-image: url("/assets/logo.jpg");
+  margin-bottom: 15px;
+}
+
+#logo span{
+  display: none;
+}
+
+#menu {
+  clear: both;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+#menu li{
+  margin-bottom: 2px;
+}
+
+#menu a {
+  color: black;
+  text-decoration: none;
+}
+
+#menu a:hover {
+  color: white;
+  background-color: black;
+}
+
+#container {
+  padding: 10px 0px;
+  margin: 0 auto;
+  width: 880px;
+}
+
+#header {
+  text-align: right;
+  width: 270px;
+  float: left;
+}
+
+#header #text p {
+  margin-bottom: 10px;
+}
+
+#header #text p.en {
+  font-style: italic;
+}
+
+#content {
+  margin-left: 40px;
+  width: 570px;
+  float: left;
+}
+
+#footer {
+  font-size: 9px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  text-align: center;
+  clear: both;
+  font-weight: bold;
+}
+
+#footer span{
+  font-size: 11px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: normal;
+  font-style: italic;
+}
+
+#footer a {
+  color: black;
+}
+
+#footer a:hover {
+  color: white;
+  background-color: black;
+}
+
+/*
+ items
+*/
+
+#items .item {
+  margin-right: 20px;
+  width: 170px;
+  float: left;
+}
+
+#items .item a {
+  color: black;
+  text-decoration: none;
+}
+
+#items .item h1 {
+  margin-top: 5px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+#items .item .technique {
+  font-style: italic;
+}
+
+#items .item .price {
+  font-weight: bold;
+}
+
+#items .item:nth-child(3) {
+  margin-right: 0px;  
+}
+
+/*
+ item
+*/
+
+#item .pics {
+  overflow: hidden;
+}
+
+#item .pics .main {
+  width: 405px;
+  float: left;
+}
+
+#item .pics .secondaries {
+  width: 123px;
+  float: right;
+}
+
+#item .pics .secondaries img{
+  margin-bottom: 10px;
+}
+
+#item .controls {
+  margin-top: 15px;
+  overflow: hidden;
+}
+
+#item .controls .data {
+  float: left;
+}
+
+#item .buy-button {
+  margin-top: 10px;
+  float: right;
+}
+
+#item .controls .data h1 {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+#item .controls .data .technique {
+  font-style: italic;
+}
+
+#item .controls .data .price {
+  font-weight: bold;
+}
+
+#item .description {
+  margin-top: 11px;
+  font-size: 12px;
+}
+
+#item .description-extra {
+  margin-top: 11px;
+}
+
+#item .link {
+  margin-top: 11px;
+}
+
+#item .link a {
+  color: black;
+}
+
+#item .link a:hover {
+  color: white;
+  background-color: black;
+}
+
+#item b {
+  font-weight: bold;
+}

@@ -1,0 +1,53 @@
+{{#item}}
+  <div id="item">
+    <div class="pics">
+      <div class="main">
+        <a rel="pics-group" href="/item_pics/{{slug}}_main.jpg">
+          <img src="/item_pics/{{slug}}_main_thumb.jpg" />
+        </a>
+      </div>
+    
+      <div class="secondaries">
+        <a rel="pics-group" href="/item_pics/{{slug}}_secondary_1.jpg">
+          <img src="/item_pics/{{slug}}_secondary_1_thumb.jpg" />
+        </a>
+      
+        <a rel="pics-group" href="/item_pics/{{slug}}_secondary_2.jpg">
+          <img src="/item_pics/{{slug}}_secondary_2_thumb.jpg" />
+        </a>
+      
+        <a rel="pics-group" href="/item_pics/{{slug}}_secondary_3.jpg">
+          <img src="/item_pics/{{slug}}_secondary_3_thumb.jpg" />
+        </a>
+      </div>
+    </div>
+  
+    <div class="controls">
+      <div class="data">
+        <h1>{{title}}</h1>
+        <div class="author">{{author}}</div>
+        <div class="technique">Serigrafía sobre papel {{technique}}</div>
+        <div class="technique">Edición numerada y firmada de 40 ejemplares</div>
+        <div class="price">{{price}} €</div>
+      </div>
+    
+      <div class="buy-button">
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+          <input type="hidden" name="cmd" value="_s-xclick">
+          <input type="hidden" name="hosted_button_id" value="{{buy-button-id}}">
+          <input type="image" src="/assets/buy_button.jpg" border="0" name="submit" alt="PayPal. La forma rápida y segura de pagar en Internet.">
+          <img alt="" border="0" src="https://www.paypalobjects.com/es_ES/i/scr/pixel.gif" width="1" height="1">
+        </form>
+      </div>
+    </div>
+    <div class="text">
+      <div class="description">
+        <p>{{{description}}}</p>
+      </div>
+      <div class="description-extra">
+        <p>{{{description-extra}}}</p>
+      </div>
+      <div class="link"><a href="{{link}}">{{link}}</a></div>
+    </div>
+  </div>
+{{/item}}
